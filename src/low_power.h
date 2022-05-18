@@ -41,7 +41,7 @@
 #include "stm32_def.h"
 #include "uart.h"
 
-#if defined(STM32_CORE_VERSION) && (STM32_CORE_VERSION  > 0x01090000) &&\
+#if defined(STM32_CORE_VERSION) && (STM32_CORE_VERSION  >= 0x01090000) &&\
     defined(HAL_PWR_MODULE_ENABLED) && !defined(HAL_PWR_MODULE_ONLY)
 
 #ifdef __cplusplus

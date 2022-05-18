@@ -39,7 +39,7 @@
 
 #include <Arduino.h>
 
-#if defined(STM32_CORE_VERSION) && (STM32_CORE_VERSION  > 0x01090000)
+#if defined(STM32_CORE_VERSION) && (STM32_CORE_VERSION  >= 0x01090000)
   #include "low_power.h"
 #endif
 
